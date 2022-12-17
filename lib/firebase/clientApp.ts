@@ -11,7 +11,6 @@ const clientCredentials = {
   appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
 };
 
-
 const app = initializeApp(clientCredentials);
 
 export default app;
